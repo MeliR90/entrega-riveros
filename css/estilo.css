@@ -44,8 +44,16 @@ a {
     font-weight: bold;
 
 }
+.contenedor {
+    grid-template-areas: contenedor;
+}
 
+.navbar {
+    grid-template-areas: navbar;
+}
 /* MAIN */
+
+
 main {
     height: 100%;
     margin-top: 2%;
@@ -117,12 +125,14 @@ footer {
 
     border: 1px solid black;
     margin-top:0%;
+    margin-bottom: 0%;
     text-align: center;
     align-items: center;
     font-size: 1.8rem;
     font-weight: bold;
     color: #92137d;
     height: 20rem;
+    grid-template-areas: footer;
 }
 
 
@@ -147,6 +157,7 @@ footer ul li {
     border: 0.3rem black solid;
     color: white;
     box-shadow: 7px 13px 37px #000;
+    grid-template-areas: formulario;
 
 }
 
@@ -179,10 +190,17 @@ footer ul li {
     color: black;
     background-color: white;
 }
-
-
-
+.carousel-item {
+    height: 100vh;
+    min-height: 100%;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 @media (max-width:768px) {
+
 
     .contenedor2 {
         width: 60%;
@@ -191,16 +209,29 @@ footer ul li {
     .logoChico {
         display: none;
     }
-
+ 
+    .carousel-item {
+        width: 100%;
+        height: 100vh;
+    }
 }
+
 
 @media (max-width:576px) {
 
     
+
     .contenedor2 {
         width: 100%;
     }
     .letras2 {
         display: none;
+    }
+    .carousel-item {
+        width: 100%;
+        height: auto;
+    }
+    .ancho {
+        height: 100%;
     }
 }
