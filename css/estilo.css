@@ -191,13 +191,13 @@ footer ul li {
     background-color: white;
 }
 .carousel-item {
-    height: 100vh;
+    height: 90vh;
     min-height: 100%;
     background: no-repeat center center scroll;
-    /* -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; */
+    background-size: cover;
   }
 @media (max-width:768px) {
 
@@ -219,9 +219,22 @@ footer ul li {
 
 @media (max-width:576px) {
 
+    footer {
+        height: 10rem;
+        font-size: 2rem;
+    }
+    footer ul li {
+        font-size: 1rem;
+    }
 
     .contenedor2 {
         width: 100%;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    header ul li {
+        font-size: 1.2rem;
     }
     .letras2 {
         display: none;
@@ -232,5 +245,8 @@ footer ul li {
     }
     .ancho {
         height: 100%;
+    }
+    header {
+        height: 18rem;
     }
 }
