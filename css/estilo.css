@@ -194,10 +194,10 @@ footer ul li {
     height: 100vh;
     min-height: 100%;
     background: no-repeat center center scroll;
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
   }
 @media (max-width:768px) {
 
@@ -219,7 +219,6 @@ footer ul li {
 
 @media (max-width:576px) {
 
-    
 
     .contenedor2 {
         width: 100%;
