@@ -22,9 +22,13 @@ h1 {
 /* Header */
 
 header {
+
+    
     border-bottom: 2px brown solid;
     margin-bottom: 0%;
     height: 24rem;
+
+    
 
 }
 
@@ -44,13 +48,7 @@ a {
     font-weight: bold;
 
 }
-.contenedor {
-    grid-template-areas: contenedor;
-}
 
-.navbar {
-    grid-template-areas: navbar;
-}
 /* MAIN */
 
 
@@ -87,9 +85,11 @@ main {
 .textos2 {
 
     text-align: justify;
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: rgb(29, 5, 51);
     background-color: antiquewhite;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .textos3 {
@@ -98,6 +98,7 @@ main {
     font-weight: bold;
     text-transform: uppercase;
     background-color: antiquewhite;
+    margin-left: 1.5rem;
 }
 
 .animation {
@@ -157,7 +158,7 @@ footer ul li {
     border: 0.3rem black solid;
     color: white;
     box-shadow: 7px 13px 37px #000;
-    grid-template-areas: formulario;
+
 
 }
 
@@ -219,12 +220,19 @@ footer ul li {
 
 @media (max-width:576px) {
 
+    .textos2 {
+        font-size: 1.3rem;
+    }
+
+    .textos3 {
+        font-size: 2rem;
+    }
     footer {
         height: 10rem;
         font-size: 2rem;
     }
     footer ul li {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .contenedor2 {
