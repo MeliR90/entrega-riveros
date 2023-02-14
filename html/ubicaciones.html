@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Starbucks Argentina. Encuentra nuestros locales en tu ciudad.">
     <title>Starbucks</title>
-    <link rel="icon" type="image/x-icon" href="https://logodownload.org/wp-content/uploads/2017/10/Starbucks-logo.png" />
+    <link rel="icon" type="image/x-icon"
+        href="https://logodownload.org/wp-content/uploads/2017/10/Starbucks-logo.png" />
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -18,53 +20,69 @@
 
 <body>
     <header class="encabezado">
-        <h1 class="contenedor wow animate__bounceIn"><a href="../index.html"><img class="logoChico"
-                    src="../img/icono.jpeg" alt="logo"></a>Starbucks</h1>
+        <div class="titulo">
+            <img class="logoChico" src="../img/icono.jpeg" alt="logo">
+            <h1 class="contenedor wow animate__bounceIn"><a href="index.html"></a></img>Starbucks</h1>
+
+        </div>
         <!-- BARRA DE NAVEGACION -->
-        <nav class="navbar navbar-expand-md navbar-light bg-white">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse navbar-light bg-white" id="navbarNav">
-                    <ul>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link" href="ubicaciones.html">Ubicaciones</a></li>
-                        <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
-                    </ul>
+        <div class="navegador">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navbar-light bg-white" id="navbarNav">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown-item"><a class="nav-link active" aria-current="page"
+                                    href="../index.html">Inicio</a></li>
+                            <li class="nav-item dropdown-item"><a class="nav-link" href="productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item dropdown-item"><a class="nav-link"
+                                    href="ubicaciones.html">Ubicaciones</a></li>
+                            <li class="nav-item dropdown-item"><a class="nav-link" href="historia.html">Historia</a>
+                            </li>
+                            <li class="nav-item dropdown-item"><a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
     <main class="textos">
         <h2 class="textos1">Nuestros Locales</h2>
         <!-- MAPA -->
+        <div>
+            <div class="textos2">
+                <p>En nuestras tiendas te esperan nuestros baristas capacitados para ofrecerte una bebida muy especial.</p>
 
-        <iframe
+                <p>
+                    El ambiente cálido y los detalles de nuestros productos elaborados artesanalmente hacen que la experiencia sea única e inigualable.
+                </p>
+
+                <p>
+                    Te invitamos a acercarte a cualquiera de nuestras tiendas para disfrutar de un hermoso ambiente.
+                </p>
+            </div>
+            <iframe
             src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d17552.506508135306!2d-68.0610302027206!3d-38.949704628788936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sStarbucks!5e0!3m2!1ses-419!2sar!4v1673103889803!5m2!1ses-419!2sar"
             width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        <div class="textos2">
-            <p>En nuestras tiendas te esperan nuestros baristas capacitados para ofrecerte una bebida
-                muy
-                especial. El ambiente cálido y los detalles de nuestros productos elaborados artesanalmente hacen que la
-                experiencia sea única e inigualable.
-            </p>
         </div>
     </main>
 
     <footer>
-        <h3>Sitio web creado por Melina Riveros</h3>
-        <h4>Todos los derechos reservados</h4>
-        <ul>
-            <li><a href="https://es-la.facebook.com/StarbucksArgentina/" target="_blank">Facebook</a></li>
-            <li><a href="https://www.instagram.com/starbucksargentina/?hl=es" target="_blank">Instagram</a></li>
-            <li><a href="https://www.youtube.com/user/Starbucks" target="_blank">Youtube</a></li>
-        </ul>
+        <div class="pie">
+            <h3>Sitio web creado por Melina Riveros</h3>
+            <h4>Todos los derechos reservados</h4>
+            <ul>
+                <li><a href="https://es-la.facebook.com/StarbucksArgentina/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/starbucksargentina/?hl=es" target="_blank">Instagram</a></li>
+                <li><a href="https://www.youtube.com/user/Starbucks" target="_blank">Youtube</a></li>
+            </ul>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
