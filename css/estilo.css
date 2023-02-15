@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Rowdies:wght@300&display=swap"); /*MIXIN*/
-
+/*Utilizado en las listas del header y footer*/
 /* MAIN */
 main {
   height: auto;
@@ -7,7 +7,7 @@ main {
   margin-bottom: 0%;
   width: 100%;
   padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .textos {
@@ -16,6 +16,7 @@ main {
 }
 
 .textos1 {
+  margin-top: 1rem;
   text-align: center;
   font-size: 3rem;
   color: rgb(243, 243, 247);
@@ -75,6 +76,7 @@ h1 {
   padding: 4vh;
   font-size: 5rem;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 header {
@@ -101,7 +103,7 @@ header ul li {
 }
 
 a {
-  color: black;
+  color: green;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -183,7 +185,7 @@ footer ul li {
   font-size: medium;
 }
 footer ul li a {
-  color: black;
+  color: green;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -207,6 +209,9 @@ footer ul li a {
   }
 }
 @media (max-width: 576px) {
+  .textos1 {
+    font-size: 1.5rem;
+  }
   .textos2 {
     font-size: 1.3rem;
   }

@@ -1,4 +1,5 @@
 @media (max-width:992px) {
+
     .contenedor2 {
         width: 60%;
     }
@@ -24,6 +25,10 @@
 }
 
 @media (max-width:576px) {
+    .textos1 {
+        font-size: 1.5rem;
+    }
+
     .textos2 {
         font-size: 1.3rem;
     }
