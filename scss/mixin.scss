@@ -1,0 +1,10 @@
+/*MIXIN*/
+
+@mixin enlaces {
+    color: $color_3;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*Utilizado en las listas del header y footer*/

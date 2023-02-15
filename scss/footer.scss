@@ -1,0 +1,38 @@
+/*FOOTER*/
+
+footer {
+    margin-top: 0;
+    padding-top: 0;
+    height: 20rem;
+}
+
+
+
+.pie {
+    background-image: url(../img/fondo-footer2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: $color_8;
+    height: 20rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+footer {
+    ul {
+        li {
+            list-style-type: none;
+            padding-left: 0;
+            font-size: medium;
+
+            a {
+                @include enlaces;
+            }
+        }
+    }
+}

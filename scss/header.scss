@@ -1,0 +1,51 @@
+/* Header */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $font-family_1;
+    margin-bottom: 0%;
+}
+
+h1 {
+    color: $color_1;
+    padding: 4vh;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+header {
+    border-bottom: 2px brown solid;
+    margin-bottom: 0%;
+    height: 25rem;
+    background-image: url(../img/fondo-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    ul {
+        li {
+            display: inline-block;
+            margin: 0.5rem;
+            font-weight: bold;
+            font-size: 2.2rem;
+            color: $color_2;
+            background-size: contain;
+        }
+    }
+}
+
+.navegador {
+    height: fit-content;
+    width: fit-content;
+}
+
+a {
+    @include enlaces;
+}
+
+.titulo {
+    display: flex;
+}

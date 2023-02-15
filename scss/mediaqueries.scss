@@ -1,0 +1,86 @@
+@media (max-width:992px) {
+    .contenedor2 {
+        width: 60%;
+    }
+
+    .logoChico {
+        display: none;
+    }
+
+    header {
+        ul {
+            li {
+                margin: 0.3rem;
+                font-size: 1.1rem;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .carousel-item {
+        width: 100%;
+        height: 80vh;
+    }
+}
+
+@media (max-width:576px) {
+    .textos2 {
+        font-size: 1.3rem;
+    }
+
+    .textos3 {
+        font-size: 2rem;
+    }
+
+    footer {
+        height: 10rem;
+        font-size: 2rem;
+
+        ul {
+            li {
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    .contenedor2 {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    header {
+        ul {
+            li {
+                margin: 0;
+                font-size: 1rem;
+                font-weight: bold;
+            }
+        }
+
+        height: 19rem;
+    }
+
+    .letras2 {
+        display: none;
+    }
+
+    .carousel-item {
+        width: 100%;
+        height: auto;
+    }
+
+    .ancho {
+        height: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
