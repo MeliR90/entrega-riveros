@@ -44,6 +44,18 @@ main {
   padding-right: 2rem;
 }
 
+.textos4 {
+  text-align: justify;
+  font-size: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  color: rgb(29, 5, 51);
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-weight: bold;
+}
+
 .animation {
   animation-duration: 4s;
 }
@@ -59,6 +71,52 @@ img {
   width: 70%;
   height: 70%;
   object-fit: cover;
+}
+
+.reubicacion {
+  display: flex;
+}
+
+.card-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  padding-top: 10%;
+  background-color: #2b832b;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+  color: white;
+  font-size: 2vh;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  white-space: normal;
+}
+
+.card:hover .card-text {
+  width: 100%;
+  left: 0;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  padding-top: 0%;
+  background: local;
+  box-shadow: 1px 2px 4px black;
+  display: block;
+  height: 20vh;
+}
+
+.card-title {
+  text-align: center;
+  padding-top: 10%;
+  font-size: 3vh;
+  font-weight: bold;
 }
 
 /* Header */
@@ -92,7 +150,7 @@ header ul li {
   display: inline-block;
   margin: 0.5rem;
   font-weight: bold;
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: #0c4b26;
   background-size: contain;
 }
@@ -100,6 +158,11 @@ header ul li {
 .navegador {
   height: fit-content;
   width: fit-content;
+  border-radius: 3px;
+  border: 2px green solid;
+  position: absolute;
+  box-shadow: 1px 2px 4px #000;
+  z-index: 1;
 }
 
 a {
@@ -157,6 +220,10 @@ a {
   background-color: white;
 }
 
+::placeholder {
+  font-size: 1.5rem;
+}
+
 /*FOOTER*/
 footer {
   margin-top: 0;
@@ -191,23 +258,6 @@ footer ul li a {
   font-weight: bold;
 }
 
-@media (max-width: 992px) {
-  .contenedor2 {
-    width: 60%;
-  }
-  .logoChico {
-    display: none;
-  }
-  header ul li {
-    margin: 0.3rem;
-    font-size: 1.1rem;
-    font-weight: bold;
-  }
-  .carousel-item {
-    width: 100%;
-    height: 80vh;
-  }
-}
 @media (max-width: 576px) {
   .textos1 {
     font-size: 1.5rem;
@@ -219,11 +269,15 @@ footer ul li a {
     font-size: 2rem;
   }
   footer {
-    height: 10rem;
+    height: fit-content;
     font-size: 2rem;
   }
   footer ul li {
     font-size: 0.9rem;
+  }
+  .reubicacion {
+    flex-direction: column;
+    align-items: center;
   }
   .contenedor2 {
     width: 100%;
@@ -253,6 +307,30 @@ footer ul li a {
 @media (max-width: 768px) {
   .container.gallery-container {
     border-radius: 0;
+  }
+  .footer {
+    height: fit-content;
+  }
+  .reubicacion {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 992px) {
+  .contenedor2 {
+    width: 60%;
+  }
+  .logoChico {
+    display: none;
+  }
+  header ul li {
+    margin: 0.3rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .carousel-item {
+    width: 100%;
+    height: 80vh;
   }
 }
 

@@ -1,0 +1,124 @@
+/* MAIN */
+
+main {
+    height: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.textos {
+    text-align: center;
+    background: linear-gradient(to left, #297003, #e4e4d9);
+}
+
+.textos1 {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 3rem;
+    color: $color_4;
+    background-color: $background-color_1;
+    text-transform: uppercase;
+}
+
+.textos2 {
+    text-align: justify;
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: $color_5;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+}
+
+.textos3 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.textos4 {
+    text-align: justify;
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    color: $color_5;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-weight: bold;
+
+}
+
+.animation {
+    animation-duration: 4s;
+}
+
+.logoChico {
+    width: 5%;
+    height: 5%;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.reubicacion {
+
+    display: flex;
+
+}
+
+.card-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    padding-top: 10%;
+    background-color: #2b832b;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    color: white;
+    font-size: 2vh;
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    white-space: normal;
+}
+
+.card:hover .card-text {
+    width: 100%;
+    left: 0;
+
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    padding-top: 0%;
+    background: local;
+    box-shadow: 1px 2px 4px black;
+    display: block;
+    height: 20vh;
+}
+
+.card-title {
+    text-align: center;
+    padding-top: 10%;
+    font-size: 3vh;
+    font-weight: bold;
+}
