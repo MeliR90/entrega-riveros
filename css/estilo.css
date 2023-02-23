@@ -2,12 +2,14 @@
 /*Utilizado en las listas del header y footer*/
 /* MAIN */
 main {
-  height: auto;
+  height: 100%;
   margin-top: 0%;
   margin-bottom: 0%;
   width: 100%;
   padding-bottom: 2rem;
   padding-top: 1rem;
+  padding-left: 1rem;
+  background-size: cover;
 }
 
 .textos {
@@ -104,8 +106,9 @@ img {
 
 .card {
   position: relative;
-  width: 100%;
+  width: 90%;
   padding-top: 0%;
+  margin-left: 3%;
   background: local;
   box-shadow: 1px 2px 4px black;
   display: block;
@@ -127,6 +130,8 @@ html {
 body {
   font-family: "Quattrocento Sans", sans-serif;
   margin-bottom: 0%;
+  margin: right 0;
+  margin-left: 0;
 }
 
 h1 {
@@ -139,6 +144,7 @@ h1 {
 
 header {
   border-bottom: 2px brown solid;
+  margin-left: 1%;
   margin-bottom: 0%;
   height: 25rem;
   background-image: url(../img/fondo-header.jpg);
@@ -228,6 +234,7 @@ a {
 footer {
   margin-top: 0;
   padding-top: 0;
+  width: auto;
   height: 20rem;
 }
 
@@ -241,7 +248,7 @@ footer {
   font-size: 1.8rem;
   font-weight: bold;
   color: #0a3509;
-  height: 20rem;
+  height: 100%;
   padding-left: 2rem;
   padding-top: 2rem;
 }
@@ -250,6 +257,7 @@ footer ul li {
   list-style-type: none;
   padding-left: 0;
   font-size: medium;
+  margin-bottom: 0;
 }
 footer ul li a {
   color: green;
@@ -274,13 +282,15 @@ footer ul li a {
   }
   footer ul li {
     font-size: 0.9rem;
+    margin-bottom: 0;
   }
   .reubicacion {
     flex-direction: column;
     align-items: center;
   }
   .contenedor2 {
-    width: 100%;
+    width: 100vw;
+    height: auto;
   }
   h1 {
     font-size: 3.5rem;
@@ -308,8 +318,9 @@ footer ul li a {
   .container.gallery-container {
     border-radius: 0;
   }
-  .footer {
-    height: fit-content;
+  .footer ul li {
+    margin-bottom: 0;
+    font-size: 1rem;
   }
   .reubicacion {
     flex-direction: column;

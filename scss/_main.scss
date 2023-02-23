@@ -1,12 +1,14 @@
 /* MAIN */
 
 main {
-    height: auto;
+    height: 100%;
     margin-top: 0%;
     margin-bottom: 0%;
     width: 100%;
     padding-bottom: 2rem;
     padding-top: 1rem;
+    padding-left: 1rem;
+    background-size: cover;
 }
 
 .textos {
@@ -108,8 +110,9 @@ img {
 
 .card {
     position: relative;
-    width: 100%;
+    width: 90%;
     padding-top: 0%;
+    margin-left: 3%;
     background: local;
     box-shadow: 1px 2px 4px black;
     display: block;
