@@ -29,8 +29,12 @@
     }
 
     .contenedor2 {
-        width: 100vw;
-        height: auto;
+
+
+         .boton{
+            font-size: 2rem;
+            box-sizing: content-box;
+         }
     }
 
     h1 {
@@ -86,16 +90,17 @@
         align-items: center;
     }
 
+
 }
 
 @media (max-width:992px) {
 
     .contenedor2 {
-        width: 60%;
+        width: 80%;
     }
 
     .logoChico {
-        display: none;
+        display: none !important;
     }
 
     header {

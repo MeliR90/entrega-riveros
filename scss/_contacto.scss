@@ -35,8 +35,10 @@
 .boton {
     background-color: $background-color_3;
     border-color: $border-color_1;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 3rem;
+    box-sizing: content-box;
+    
 
     &:hover {
         color: $color_7;
